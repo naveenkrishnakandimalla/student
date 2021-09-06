@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+
+
+  datasource:
+    Url: jdbc:mysql://127.0.0.1:3306
+    username: root
+    password: Usa@1234
+    driverClassName: com.mysql.jdbc.Driver
+
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+server:
+  port : 8090
