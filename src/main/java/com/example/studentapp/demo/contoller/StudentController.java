@@ -18,6 +18,7 @@ public class StudentController {
 
     @GetMapping(value = "/api")
     public String welcome(){
+
         return "welcome to the spring Boot";
     }
 
